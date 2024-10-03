@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Tarjetas y Menú</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+    <h1 style="text-align: center;">Bienvenidos a mi página</h1>
+
+    <!-- Sección de presentación personal -->
+    <section class="presentación"></section>
+        <img src="IMG.alex.jpg" alt="Mi imagen" class="profile-image">
+        <h4 id="nombre">Mi nombre es Gary Almonte</h4>
+        <h4 id="pasatiempo">Mi pasatiempo es programar</h4>
+        <h4 id="mi trabajo">Mi trabajo es auxiliar de almacén</h4>
+        <h4 id="me gusta">Me gusta salir con mi familia</h4>
+        <button>¿Quieres saber más?</button>
+    </section>
+
+    <!-- Sección de tarjetas -->
+    <div class="container">
+        <div class="card">
+            <img src="img.itachi.jpg" alt="Imagen Itachi">
+            <h2>Itachi</h2>
+            <button>Ver más</button>
+        </div>
+        <div class="card">
+            <img src="img.madara.jpg" alt="Imagen Madara">
+            <h2>Madara</h2>
+            <button>Ver más</button>
+        </div>
+        <div class="card">
+            <img src="img.pain.jpeg" alt="Imagen Pain">
+            <h2>Pain</h2>
+            <button>Ver más</button>
+        </div>
+    </div>
+<section style="background-color: aqua;">
+   
+   
+    <h1 style="text-align: center;">1. ¿Qué es CSS?</h1>
+    <p>CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo utilizado para describir la
+         presentación de un documento escrito en HTML o XML. CSS define cómo se deben mostrar los elementos
+          en la pantalla,
+         en papel, o en otros medios.</p>
+
+         <h1 style="text-align: center;">2. ¿Cuál es la función principal de CSS?</h1>
+         <p>La función principal de CSS es separar el contenido de un documento (escrito en HTML) de su presentación.
+             Esto permite que los diseñadores web cambien el estilo de una página web sin afectar
+             su estructura.</p>
+
+             <h1 style="text-align: center;" >3. ¿Cómo se puede incluir CSS en un documento HTML?</h1>   
+          <p>CSS se puede incluir en un documento HTML de tres maneras:
+
+            Inline: Usando el atributo style en una etiqueta HTML</p>
+            <p>Interno: Usando una etiqueta stylo dentro  del documento</p>
+            <p>Externo: Enlazando a un archivo CSS externo con la etiqueta <link></p>
+
+            <h1 style="text-align: center;" >. ¿Qué son los selectores en CSS?</h1>
+            <p>Los selectores en CSS son patrones que se utilizan para seleccionar los elementos HTML a los que
+                 se aplicarán los estilos.
+                 Ejemplos de selectores incluyen:</p>
+                 <p>Elementos: p selecciona todos los elementos <p>.</p>
+                 <p>Clases: .clase selecciona todos los elementos con la clase clase.</p>
+                 <p>ID: #id selecciona el elemento con el ID id.</p>
+
+                 <h1 style="text-align: center;">5. ¿Qué son las propiedades y valores en CSS?</h1>
+                 <p>Las propiedades son características que se pueden modificar en un elemento HTML, como color,
+                     font-size, o margin. Los valores son los ajustes que
+                     se aplican a estas propiedades. </p>
+
+                     <h1 style="text-align: center;" >6. ¿Cómo se aplica el modelo de caja en CSS?</h1>
+                     <p>El modelo de caja (box model) describe cómo se representa un elemento en CSS. Cada elemento 
+                        se considera una
+                         caja que consta de:</p>
+                         <p>Contenido: El texto o imágenes dentro del elemento.</p>
+                         <p>lleno (padding): El espacio entre el contenido y el borde.</p>
+                         <p>Borde (border): Una línea que rodea el relleno.</p>
+                         <p>Margen (margin): El espacio fuera del borde, separando el elemento de otros elementos.</p>
+
+                         <h1 style="text-align: center;">. ¿Qué es el "cascading" en CSS?</h1>
+                         <p>El "cascading" se refiere a la forma en que CSS aplica estilos a los elementos. Si hay múltiples
+                             reglas que afectan un elemento, se aplican según un orden de prioridad, que considera la especificida
+                             d de los selectores y el orden en que aparecen las reglas. Esto significa que las reglas más específicas
+                              y las que aparecen más tarde en el 
+                            código tendrán mayor prioridad.</p>
+
+                            <h1 style="text-align: center;" >8. ¿Qué son las media queries?</h1>
+                            <p>Las media queries son una característica de CSS que permite aplicar estilos diferentes según las 
+                                características del dispositivo, como el ancho de la pantalla. Son fundamentales para el diseño responsivo.
+                                 </p>
+
+                                 <h1 style="text-align: center;" >9. ¿Cuáles son algunos estilos comunes que se pueden aplicar?</h1>
+                                 <p>Algunos estilos comunes incluyen:
+
+                                 Color: Cambiar el color del texto.</p>
+                                 <p>uentes: Establecer el tipo, tamaño y estilo de fuente.</p>
+                                 <p>márgenes y rellenos: Ajustar el espacio alrededor y dentro de los elementos.</p>
+                                 <p>Bordes: Agregar bordes a los elementos</p>
+                                 <p>Fondo: Establecer colores o imágenes de fondo.</p>
+
+                                 <h1 style="text-align: center;" >10. ¿Cómo se puede usar CSS para crear un diseño responsivo?</h1>
+                                 <p>CSS se puede usar para crear un diseño responsivo a través de:
+
+                                    Media queries: Para aplicar diferentes estilos en función del tamaño de la pantalla.
+                            </p>
+                            <p>Unidades relativas: Usar unidades como %, em, o rem en lugar de píxeles.</p>
+                            <p>Flexbox y Grid: Usar estos sistemas de diseño para crear layouts que se ajusten automáticamente a diferentes 
+                                tamaños de pantalla.</p>
+
+
+
+
+
+
+
+
+
+
+</section>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a>
+                <ul class="submenu">
+                    <li><a href="#">Diseño Web</a></li>
+                    <li><a href="#">Desarrollo</a></li>
+                    <li><a href="#">Marketing</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+
+
+
+
+
+
+
+ 
+    
+
